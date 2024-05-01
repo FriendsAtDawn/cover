@@ -1,0 +1,132 @@
+/* CSS, va de amigo: no estas bien estructurado */
+
+
+
+/* Soy el chico de los botones, soy la manteca sacrificial */
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: calc(100% - 0px);
+}
+
+.button1 {
+  background-color: #307e9c;
+  color: white;
+  border: 2px solid white;
+}
+
+.button1:hover {
+  background-color: #76b7d0;
+  color: white;
+}
+
+.button2 {
+  background-color: white;
+  color: black;
+  border: 2px solid #008cba;
+}
+
+.button2:hover {
+  background-color: #76b7d0;
+  color: white;
+}
+
+.item1 {
+  grid-area: header;
+}
+
+.item7 {
+  grid-area: vvv;
+}
+
+.item2 {
+  grid-area: links;
+}
+
+.item3 {
+  grid-area: main;
+}
+
+.item4 {
+  grid-area: sp;
+}
+
+.item5 {
+  grid-area: footer;
+}
+
+.item6 {
+  grid-area: pie;
+}
+
+.item8 {
+  grid-area: side;
+}
+
+.item9 {
+  grid-area: disc;
+}
+
+.item10 {
+  grid-area: mic;
+}
+
+.grid-container {
+  display: grid;
+  /*grid-template-columns: auto auto auto auto auto;*/
+  grid-template-areas:
+    "header header header header header header"
+    "vvv    vvv  vvv    vvv     vvv    vvv"
+    "links links main   main    sp     sp"
+    "links links footer footer  footer footer"
+    "side  side  side   side    side   side "
+    "disc  disc  disc   pie     pie    pie"
+    "disc disc disc mic mic mic";
+  gap: 10px;
+  background-color: transparent;
+  /*color del contenedor*/
+  padding: 5px;
+}
+
+.grid-container > div {
+  background-color: rgb(171 216 233 / 0.4);
+  /*color de fondo de la grilla*/
+  text-align: justify;
+  padding: 10px 5%;
+  font-size: 25px;
+  color: #21359d;
+}
+
+/* varia */
+div.item1 {
+  background-color: transparent;
+}
+
+div.item7 {
+  background-color: transparent;
+}
+
+p.item8 {
+  font-size: 10px;
+}
+
+h4.item8 {
+  font-size: 10px;
+}
+
+div.item7 {
+  background-color: transparent;
+}
+
+.grid-container > p {
+  text-align: justify;
+}
