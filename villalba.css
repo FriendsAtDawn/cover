@@ -85,12 +85,12 @@
   /*grid-template-columns: auto auto auto auto auto;*/
   grid-template-areas:
     "header header header header header header"
-    "vvv    vvv  vvv    vvv     vvv    vvv"
-    "links links main   main    main     sp"
-    "links links footer footer  footer sp"
-    "side  side  side   side    side   side "
-    "disc  disc  disc   pie     pie    pie"
-    "disc disc disc mic mic mic";
+    "vvv vvv vvv vvv vvv vvv"
+    "links links main main main sp"
+    "links links footer footer footer sp"
+    "links links footer footer footer sp"
+    "disc disc side side pie pie"
+    "disc disc side side mic mic";
   gap: 10px;
   background-color: transparent;
   /*color del contenedor*/
@@ -98,7 +98,7 @@
 }
 
 .grid-container > div {
-  background-color: rgb(171 216 233 / 0.4);
+  background-color: rgb(171 216 233 / 0.7);
   /*color de fondo de la grilla*/
   text-align: justify;
   padding: 10px 5%;
