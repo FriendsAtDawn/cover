@@ -1,162 +1,147 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-      <style>
-         html {
-         background-image: url("cover.jpg");
-         min-height: 100%;
-         background-position: center;
-         background-size: cover;
-         }
-         h1{
-         font-size: 80%;
-         }
-         p{
-         font-size: 60%;
-         }
-      </style>
-      <meta charset="UTF-8" />
-      <link rel="stylesheet" href="villalba.css" />
-   </head>
-   <body>
-      <div class="grid-container">
-         <div class="item1"></div>
-         <div class="item7">
-            <img src="logo.svg" />
-         </div>
-         <div class="item2">
-            <h1>Log.</h1>
-            <br />
-            <p style="font-size: 50%"><b>Juli0 1, 2024: Restaurado acceso al servidor 2.</b> Por eso es que está de prueba, su servidor no es inmune a los cortes de la ANDE. Más de 50 clicks se dieron durante el tiempo que estuvo sin acceso. </p>
-            <p style="font-size: 50%">
-               Están en preparacion la primera serie de la carpeta 40. De hecho se probaron, pero existen fallas de origen técnico por un lado y por otro lado falta de espacio. Lo estamos resolviendo con el breve tiempo que tenemos para dedicar a este proyecto.
-            </p>
-            <p style="font-size: 50%">
-               Los servidores están cada vez más estables.
-               Sigue siendo un problema el OCR por mas de que se solucionó gran parte y con ello se mejoró la legibilidad.
-               Se reordenaron los archivos. Ahora la carpeta 00 es la que corresponde a los primeros 10 mil... no los tengo todos, claro, pero desde la ultima actualización ya suman más de 30 mil resoluciones.
-               Si te gusta lo que estoy tratando de hacer, bueno: por ahí anda mi buy me a coffee, aun no lo agregue en las páginas sino en la primera.
-            </p>
-         </div>
-         <div class="item3">
-            <h1>Recursos</h1>
-            <p style="font-size: 50%">
-               <button class="button buttom1">
-               <a href="https://firmus.site/recoll/" style="color: #3f50aa"
-                  >Ingreso al buscador sobre servidor Apache [a].</a>
-               </button>
-            </p>
-            <p style="font-size: 50%">
-               <button class="button buttom1">
-               <a href="http://cc.cives.ca.eu.org/recoll/" style="color: #3f50aa"
-                  >Servidor de prueba.</a>
-               </button><br />
-               
-               Este servidor tiene además las ultimas resoluciones. Creo que es mejor ir de atras para adelante, si funciona trataré de implementarlo de esa manera. 
-
-
-            </p>
-            <!-- <p style="font-size: 50%">
-               <button class="button buttom1">
-               <a href="https://rcsj.0007407.xyz/" style="color: #3f50aa"
-                  >Buscador de Jusriprudencia sobre tunel de Clf.</a
-                  >
-               </button> -->
-            <hr>
-            <h1>Blog</h1>
-            <button class="button buttom1">
-            <a style="color: #3f50aa" href="https://blog.villalba.is/"
-               >villalba.is</a
-               >
-            </button>
-            <button class="button buttom1">
-            <a style="color: #3f50aa" href="https://0007407.xyz/"
-               >0007407.xyz</a
-               >
-            </button>
-            </p>
-         </div>
-         <div class="item4">
-            <h1>Sponsors.
-            </h1>
-            <p>Sin la ayuda de interserver.net sería imposible mantener estable el
-               buscador de jurisprudencia. Por favor, si es que está a tu alcance, suscribite a un pla de 3 USD, es "sin contrato" como solemos decir. Es decir lo podes dejar de usar y por ende pagar en cualquier momento. Eso ayudará enormemente a la estabilidad del buscador.<br/><br/>
-            </p>
-            <center> <a href="https://www.interserver.net/r/910602"><img src="banner.gif" alt="InterServer Web Hosting and VPS"></a></center>
-            <br/> 
-            <p style="font-size: 60%">Incluiré links de mis colaboradores para intentar retribuir la ayuda. He aquí uno de ellos; C.D.V: <br/> <br/> </p>
-            <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/track=3710184819/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="https://cabodevila.bandcamp.com/track/crome-part-ii">Crome Part II by cabodevila</a></iframe>
-         </div>
-         <div class="item5">
-
-            <h1>Paquetes.</h1>
-
-            <button class="button buttom1">
-            <a style="color: #3f50aa" href="https://buymeacoffee.com/isvillalba/e/273895/"
-               >850+ Ultimas Resoluciones</a
-               >
-            </button>
-         </div>
-            <div class="item6">
-            <h1>
-               Acerca del Buscador
-            </h1>
-            <p style="font-size: 60%">
-               Empecé a utilizar el motor de xapian porque me pareció que las
-               consultas que realizaba en
-               <a href="http://csj.gov.py/Jurisprudencia">la de la CSJ</a> me
-               resultaba muy difícil; es más, seguramente por la cantidad de peticiones que reciben a diario lo ponen difícil de propósito a veces. Sin embargo, ellos tienen toda la base de
-               datos, yo apenas compile las anteriores. La idea es
-               compilarlas todas y seguir teniendo este mismo nivel responsivo en la
-               búsqueda.
-               Me he concentrado en mejorar el OCR de los pdf's pero no sé si he
-               tenido mucho éxito en ello. Hacerlo lleva mucho tiempo e insume muchos
-               recursos. Y el resultado, al menos por lo que se observa en las
-               resoluciones ya disponibles, son unas 30 mil, no difiere mucho del
-               original muchas veces. Por ello el siguiente disclaimer.
-            </p>
-         </div>
-         <div class="item8">
-            <h1>Canal de Noticias Judiciales</h1>
-            <p>Hace algunos años todas las instituciones del estado tenían canal de RSS. Ahora nadie lo tiene. Es más, tratan que uno no lo haga, por decirlo así, <i>client-side</i>. Hace tiempo que uso un canal de Telegram, donde he ido agregando los feeds en la medida en que tenía tiempo y ganas y hoy me resulta muy útil, como a veces molesto. La Corte es capaz de hacer una nueva publicación a las 01:00 a.m.</p>
-            <button class="button buttom1">
-            <a style="color: #3f50aa" href="https://t.me/addictedtolaw/"
-               >@addictedtolaw</a
-               >
-            </button>
-
-         </div>
-         <div class="item9">
-            <h1>
-               Condiciones de uso.
-            </h1>
-            <p style="font-size: 60%">
-               Todas la resoluciones disponibles al momento y las que luego se
-               disponga se las debe comparar con las disponibles en www.csj.gov.py.
-               Estas pretenden ser copias fieles de aquellas, pero como en parte se
-               utiliza para ello un sistema automatizado es imprescindible corroborar
-               con la fuente respectiva utilizando los datos de número de resolución
-               y año. En ese sentido los textos contenidos en esta web son solo
-               referencias de aquellas y no pueden ni pretenden subsituir a la fuente
-               original, por lo que todo usuario se compromete a hacer las
-               comparaciones debidas adecuadas con el solo hecho de efectuar una
-               búsqueda.
-            </p>
-         </div>
-         <!-- lo que sea -->
-         <div class="item10">
-            <h1>
-               Gracias.
-            </h1>
-            <p style="font-size: 60%">
-               Aparte de todas las instituciones de internet prácticamente ---Cloudflare, Replit,
-               Github, ngrok, recoll, Interserver---, esta página sería imposible sin
-               el trabajo de Idalina Insfrán-Villalba y sus muy apropiadas
-               correcciones, que realiza en las pausas que se hace mientras prepara
-               su tesis.
-            </p>
-         </div>
-      </div>
-   </body>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<style>
+			html {
+			background-image: url("cover.jpg");
+			min-height: 100%;
+			background-position: center;
+			background-size: cover;
+			}
+			h1{
+			font-size: 80%;
+			}
+			p{
+			font-size: 50%;
+			}
+		</style>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="villalba.css" />
+	</head>
+	<body>
+		<div class="grid-container">
+			<!--Item 1=head-->
+			<div class="item1"></div>
+			<!--Item 2=logo-->
+			<div class="item2">
+				<img src="logo.svg" />
+			</div>
+			<!--Item 3=link-->
+			<div class="item3">
+				<h1>Log.</h1>
+				<br />
+				<p style="font-size: 50%"><b>Juli0 1, 2024: Restaurado acceso al servidor 2.</b> Por eso es que está de prueba, su servidor no es inmune a los cortes de la ANDE. Más de 50 clicks se dieron durante el tiempo que estuvo sin acceso. </p>
+				<p style="font-size: 50%">
+					Están en preparacion la primera serie de la carpeta 40. De hecho se probaron, pero existen fallas de origen técnico por un lado y por otro lado falta de espacio. Lo estamos resolviendo con el breve tiempo que tenemos para dedicar a este proyecto.
+				</p>
+				<p style="font-size: 50%">
+					Los servidores están cada vez más estables.               Sigue siendo un problema el OCR por mas de que se solucionó gran parte y con ello se mejoró la legibilidad.               Se reordenaron los archivos. Ahora la carpeta 00 es la que corresponde a los primeros 10 mil... no los tengo todos, claro, pero desde la ultima actualización ya suman más de 30 mil resoluciones.               Si te gusta lo que estoy tratando de hacer, bueno: por ahí anda mi buy me a coffee, aun no lo agregue en las páginas sino en la primera.
+				</p>
+				<!--Item 4=main-->
+			</div>
+			<div class="item4">
+				<h1>Recursos</h1>
+				<p style="font-size: 50%">
+					<button class="button buttom1">
+					<a href="https://firmus.site/recoll/" style="color: #3f50aa"
+						>Ingreso al buscador sobre servidor Apache [a].</a>
+					</button>
+				</p>
+				<p style="font-size: 50%">
+					<button class="button buttom1">
+					<a href="http://cc.cives.ca.eu.org/recoll/" style="color: #3f50aa"
+						>Servidor de prueba.</a>
+					</button><br />
+					Este servidor tiene además las ultimas resoluciones. Creo que es mejor ir de atras para adelante, si funciona trataré de implementarlo de esa manera. 
+				</p>
+				<!-- <p style="font-size: 50%">
+					<button class="button buttom1">
+					<a href="https://rcsj.0007407.xyz/" style="color: #3f50aa"
+					   >Buscador de Jusriprudencia sobre tunel de Clf.</a
+					   >
+					</button> -->
+				<hr>
+				<h1>Blog</h1>
+				<button class="button buttom1">
+				<a style="color: #3f50aa" href="https://blog.villalba.is/"
+					>villalba.is</a
+					>
+				</button>
+				<button class="button buttom1">
+				<a style="color: #3f50aa" href="https://0007407.xyz/"
+					>0007407.xyz</a
+					>
+				</button>
+				</p>
+			</div>
+			<!--Item 5=spon-->
+			<div class="item5">
+				<h1>Sponsors.
+				</h1>
+				<p>Sin la ayuda de interserver.net sería imposible mantener estable el               buscador de jurisprudencia. Por favor, si es que está a tu alcance, suscribite a un pla de 3,00 USD, es "sin contrato" como solemos decir. Es decir lo podes dejar de usar y por ende pagar en cualquier momento. Eso ayudará enormemente a la estabilidad del buscador.<br/><br/>
+				</p>
+				<center> <a href="https://www.interserver.net/r/910602"><img src="banner.gif" alt="InterServer Web Hosting and VPS"></a></center>
+				<br/> 
+				<p style="font-size: 50%">Incluiré links de mis colaboradores para intentar retribuir la ayuda. He aquí uno de ellos; C.D.V: <br/> <br/>
+				</p>
+				<p>
+					<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/track=2489871838/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="https://cabodevila.bandcamp.com/track/im-not-going-home">I&#39;m not going home. by cabodevila</a></iframe>
+					<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/track=3710184819/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="https://cabodevila.bandcamp.com/track/crome-part-ii">Crome Part II by cabodevila</a></iframe>
+				</p>
+			</div>
+			<!--Item 6=pack-->
+			<div class="item6">
+				<h1>Paquetes.</h1>
+				<button class="button buttom1">
+				<a style="color: #3f50aa" href="https://buymeacoffee.com/isvillalba/e/273895/"
+					>850+ Ultimas Resoluciones</a
+					>
+				</button>
+			</div>
+			<!--Item 7=info-->
+			<div class="item7">
+				<h1>
+					Acerca del Buscador
+				</h1>
+				<p style="font-size: 50%">
+					Empecé a utilizar el motor de xapian porque me pareció que las
+					consultas que realizaba en
+					<a href="http://csj.gov.py/Jurisprudencia">la de la CSJ</a> me               resultaba muy difícil; es más, seguramente por la cantidad de peticiones que reciben a diario lo ponen difícil de propósito a veces. Sin embargo, ellos tienen toda la base de               datos, yo apenas compile las anteriores. La idea es               compilarlas todas y seguir teniendo este mismo nivel responsivo en la
+					búsqueda.            Me he concentrado en mejorar el OCR de los pdf's pero no sé si he               tenido mucho éxito en ello. Hacerlo lleva mucho tiempo e insume muchos
+					recursos. Y el resultado, al menos por lo que se observa en las               resoluciones ya disponibles, son unas 30 mil, no difiere mucho del               original muchas veces. Por ello el siguiente disclaimer.
+				</p>
+			</div>
+			<!--Item 7=cnls-->
+			<div class="item8">
+				<h1>Canal de Noticias Judiciales</h1>
+				<p>Hace algunos años todas las instituciones del estado tenían canal de RSS. Ahora nadie lo tiene. Es más, tratan que uno no lo haga, por decirlo así, <i>client-side</i>. Hace tiempo que uso un canal de Telegram, donde he ido agregando los feeds en la medida en que tenía tiempo y ganas y hoy me resulta muy útil, como a veces molesto. La Corte es capaz de hacer una nueva publicación a las 01:00 a.m.</p>
+				<button class="button buttom1">
+				<a style="color: #3f50aa" href="https://t.me/addictedtolaw/"
+					>@addictedtolaw</a
+					>
+				</button>
+				<!--Item 8:dscl -->
+			</div>
+			<div class="item9">
+				<h1>
+					Condiciones de uso.
+				</h1>
+				<p style="font-size: 50%">
+					Todas la resoluciones disponibles al momento y las que luego se disponga se las debe comparar con las disponibles en www.csj.gov.py.               Estas pretenden ser copias fieles de aquellas, pero como en parte se utiliza para ello un sistema automatizado es imprescindible corroborar               con la fuente respectiva utilizando los datos de número de resolución y año. En ese sentido los textos contenidos en esta web son solo
+					referencias de aquellas y no pueden ni pretenden subsituir a la fuente original, por lo que todo usuario se compromete a hacer las               comparaciones debidas adecuadas con el solo hecho de efectuar una búsqueda.
+				</p>
+			</div>
+			<!-- Item 9:thnk--> 
+			<div class="item10">
+				<h1>
+					Gracias.
+				</h1>
+				<p style="font-size: 50%">
+					Aparte de todas las instituciones de internet prácticamente ---Cloudflare, Replit,               Github, ngrok, recoll, Interserver---, esta página sería imposible sin               el trabajo de Idalina Insfrán-Villalba y sus muy apropiadas               correcciones, que realiza en las pausas que se hace mientras prepara               su tesis.
+				</p>
+			</div>
+		</div>
+	</body>
 </html>
+

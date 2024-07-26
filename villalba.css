@@ -40,58 +40,59 @@
   color: white;
 }
 
-.item1 {
-  grid-area: header;
-}
+/*---*/
 
-.item7 {
-  grid-area: vvv;
+.item1 {
+  grid-area: head;
 }
 
 .item2 {
-  grid-area: links;
+  grid-area: logo;
 }
 
 .item3 {
-  grid-area: main;
+  grid-area: link;
 }
 
 .item4 {
-  grid-area: sp;
+  grid-area: main;
 }
 
 .item5 {
-  grid-area: footer;
+  grid-area: spon;
 }
 
 .item6 {
-  grid-area: pie;
+  grid-area: pack;
+}
+
+.item7 {
+  grid-area: info;
 }
 
 .item8 {
-  grid-area: side;
+  grid-area: cnls;
 }
 
 .item9 {
-  grid-area: disc;
+  grid-area: dscl;
 }
 
 .item10 {
-  grid-area: mic;
+  grid-area: thnk;
 }
 
 .grid-container {
   display: grid;
-  /*grid-template-columns: auto auto auto auto auto;*/
+  grid-template-columns: 35% 35% auto;
   grid-template-areas:
-    "header header header header header header"
-    "vvv vvv vvv vvv vvv vvv"
-    "links links main main main sp"
-    "links links footer footer footer sp"
-    "links links footer footer footer sp"
-    "disc disc side side pie pie"
-    "disc disc side side mic mic";
-  gap: 10px;
+    "head head head"
+    "logo logo logo"
+    "link main spon"
+    "link pack spon"
+    "info cnls thnk"
+    "dscl dscl dscl";
+     gap: 10px;
   background-color: transparent;
   /*color del contenedor*/
   padding: 5px;
@@ -107,11 +108,7 @@
 }
 
 /* varia */
-div.item1 {
-  background-color: transparent;
-}
-
-div.item7 {
+div.item2 {
   background-color: transparent;
 }
 
@@ -121,10 +118,6 @@ p.item8 {
 
 h4.item8 {
   font-size: 10px;
-}
-
-div.item7 {
-  background-color: transparent;
 }
 
 .grid-container > p {
