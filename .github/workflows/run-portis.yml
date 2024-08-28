@@ -3,7 +3,7 @@ name: Run Portis Script
 on:
   push:
     branches:
-      - main  # Cambia esto si usas otra rama
+      - main
 
 jobs:
   build:
@@ -11,7 +11,7 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3  # Updated to v3
 
     - name: Install Pandoc
       run: sudo apt-get install -y pandoc
