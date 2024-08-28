@@ -22,27 +22,27 @@ echo "<!DOCTYPE html>
  <link rel=\"stylesheet\" href=\"./styles/lit.css\" />
 </head>
 <body>
-<div class=\"wrapper\">" > index.html
+<div class=\"wrapper\">" > ./index.html
 
 # Loop through the keys of the associative array
 for filename in "${!files[@]}"
 do
     class_name=${files[$filename]}
-    echo "<div class=\"$class_name\">" >> index.html
+    echo "<div class=\"$class_name\">" >> ./index.html
     
     # Construct the full path to the Markdown file
     full_path="./content/$filename"
     
     if [ -e "$full_path" ]; then
-        pandoc "$full_path" >> index.html
+        pandoc "$full_path" >> ./index.html
     else
-        echo "File $full_path does not exist." >> index.html
+        echo "File $full_path does not exist." >> ./index.html
     fi
     
-    echo "</div>" >> index.html
+    echo "</div>" >> ./index.html
 done
 
 # Close the HTML tags
 echo "</div></body>
-</html>" >> index.html
+</html>" >> ./index.html
 
