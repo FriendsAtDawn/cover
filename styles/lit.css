@@ -2,13 +2,13 @@
   font-family: "nunito";
   src:
     local("nunito"),
-    url("Nunito-VariableFont_wght.ttf") format("opentype") tech(color-COLRv1),
-    url("Nunito-Italic-VariableFont_wght.ttf") format("opentype"),
+    url("../fonts/Nunito-VariableFont_wght.ttf") format("opentype") tech(color-COLRv1),
+    url("../fonts/Nunito-Italic-VariableFont_wght.ttf") format("opentype"),
 }
 
 body {
     background-color: #f0f0f0; /* Change to your desired color */
-    background-image: url('cover.jpg'); /* Optional: Add a background image */
+    background-image: url('../img/cover.jpg'); /* Optional: Add a background image */
     background-size: cover; /* Optional: Cover the entire page */
     background-repeat: no-repeat; /* Optional: Prevent image repetition */
 }

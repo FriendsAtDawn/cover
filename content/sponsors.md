@@ -4,7 +4,7 @@
 
 Sin la ayuda de interserver.net sería imposible mantener estable el buscador de jurisprudencia. Por favor, si es que está a tu alcance, suscribite a un plan de 3,00 USD, es "sin contrato" como solemos decir. Es decir lo podes dejar de usar y por ende pagar en cualquier momento. Eso ayudará enormemente a la estabilidad del buscador.
 
-[![interserver](https://villalba.is/banner.gif)](https://www.interserver.net/r/910602)
+[![interserver](https://villalba.is/img/banner.gif)](https://www.interserver.net/r/910602)
 
 ## Cabodevila
 
