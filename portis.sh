@@ -35,6 +35,7 @@ do
     
     if [ -e "$full_path" ]; then
         pandoc "$full_path" >> ./index.html
+            echo "Processing file: $full_path"
     else
         echo "File $full_path does not exist." >> ./index.html
     fi
