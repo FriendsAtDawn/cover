@@ -1,0 +1,34 @@
+name: Build Site
+
+on:
+  push:
+    branches:
+      - main  # Change this to your default branch if it's not 'main'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Pandoc
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y pandoc
+
+    - name: Run script
+      run: |
+        chmod +x ./your_script.sh  # Replace with the name of your script
+        ./portis.sh
+
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "76827290+FriendsAtDawn@users.noreply.github.com"  # Replace with your email
+        git config --local user.name "FriendsAtDawn"  # Replace with your name
+        git add index.html
+        git commit -m "Update index.html"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
