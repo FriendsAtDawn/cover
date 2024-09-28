@@ -25,8 +25,8 @@ jobs:
 
     - name: Commit and push changes
       run: |
-        git config --local user.email "76827290+FriendsAtDawn@users.noreply.github.com"  # Replace with your email
-        git config --local user.name "FriendsAtDawn"  # Replace with your name
+        git config --local user.email "yand@quien.es.eu.org"  # Replace with your email
+        git config --local user.name "Stand Your Gists"  # Replace with your name
         git add index.html
         git commit -m "Update index.html"
         git push
