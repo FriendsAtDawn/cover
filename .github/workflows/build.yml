@@ -20,7 +20,7 @@ jobs:
 
     - name: Run script
       run: |
-        chmod +x ./your_script.sh  # Replace with the name of your script
+        chmod +x ./portis.sh  # Replace with the name of your script
         ./portis.sh
 
     - name: Commit and push changes
