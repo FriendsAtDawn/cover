@@ -4,5 +4,7 @@ Empecé a utilizar el motor de **xapian** porque me pareció que las consultas q
 
 Lastimosamente, el de los ocr's, como muchos otros es un trabajo que no compensa.
 
+Esto es una limitación absoluta. Sobre todo después del ingreso de [Cloudflare](https://cloudflare.com) en la ecuación que en poco tiempo fijó las limitaciones del servidor original de la Corte.
+
 Por ello el siguiente [disclaimer](#disclaimer).
 
