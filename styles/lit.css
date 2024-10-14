@@ -76,6 +76,14 @@ font-family: "nunito";
 
 }
 
+ul {
+
+text-align: justify;
+font-family: "nunito";
+padding: 2px;
+  font-size: 13px;
+}
+
 .wrapper {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
