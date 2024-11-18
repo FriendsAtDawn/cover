@@ -20,7 +20,7 @@ echo "<!DOCTYPE html>
  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">
  <title>villalba.is</title>
  <link rel=\"stylesheet\" href=\"./styles/lit.css\" />
- <scrip src=\"./js/rss-feed.js\" defer></scrip>
+ <script src=\"./js/rss-feed.js\" defer></script>
 </head>
 <body>
 <div class=\"wrapper\">" > ./index.html
