@@ -2,13 +2,14 @@
 
 <center><a href="https://natel.site"><img src="https://affande.anaquel.es.eu.org/natel.png" style="width: 80%;"></a></center>
 
-Trámites ante la Conatel.
+Producción de Proyectos bajo los stándares de la Comisión Nacional de Telecomunicaciones. Asunción, Paraguay.
 
+---
 
 
 <center><a href="https://citius.natel.site"><img src="img/logo.png" style="width: 80%;"></a></center>
 
-Red dedicada a trámites legales.
+Servicios de certificación de documentos, cumpliendo con todos los requisitos legales necesarios. Ya sea para trámites personales, laborales o académicos.
 
 ---
 
