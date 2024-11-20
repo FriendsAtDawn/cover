@@ -4,7 +4,7 @@
 <button class="button buttom1"><a href="https://ministerio.mt.eu.org/recoll/" style="color: #3f50aa">Ingreso al buscador.</a></button>
 <button class="button buttom1"><a href="http://cc.cives.ca.eu.org/recoll/" style="color: #3f50aa">Ingreso al buscador.</a></button>
 				
-Servidor muy inestable. Me quedé sin mi máquina virtual y hasta que decida dónde arrendaré otra me quedo con las máquinas que tengo, que no son malas pero que están sujetas a la provisión de la Electric. Co.
+Debo admitir que los servidores (ahora servidores) están mucho más estables luego de distribuirlos en mis máquinas y en una u otra máquina en la oficina y en la de un amigo que gentilmente me cedió un espacio en su NAS. El <code>round robin</code> puede hacer mucho por tu vida, joven Padawan, y aun cuando no está enteramente implementado, ya se nota el cambio en la estabilidad y en la velocidad. Denle las gracias a Cloudflare, a GitHub, a _I, in a desert island_, a mis amigos y finalmente a mí. 
 				
 # Blog
 				
