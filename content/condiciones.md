@@ -4,6 +4,3 @@ Todas la resoluciones disponibles al momento y las que luego se disponga se las 
 
 <a name=disclaimer id=disclaimer></a>
 
----
-
-<div id="mysitemapgenerator_loadcorsdata" data-token="7b1f2f5f926d6963c217e31d92dd738a" data-domain="www.mysitemapgenerator.com"></div><script src="https://cdn.mysitemapgenerator.com/api/embedfeed.m.js"></script>
