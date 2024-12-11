@@ -9,6 +9,6 @@ Debo admitir que los servidores (ahora servidores) están mucho más estables lu
 				
 # Blog
 				
-<button class="button buttom1"><a style="color: #3f50aa" href="https://blog.villalba.is/">villalba.is</a></button>
+<button class="button buttom1"><a style="color: #3f50aa" href="https://post.villalba.is/">post.villalba.is</a></button>
 
-<button class="button buttom1"><a style="color: #3f50aa" href="https://0007407.xyz/">0007407.xyz</a></button>
+<button class="button buttom1"><a style="color: #3f50aa" href="https://ww2.0007407.xyz/">0007407.xyz</a></button>
