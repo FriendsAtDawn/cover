@@ -9,7 +9,7 @@ Debo admitir que los servidores (ahora servidores) están mucho más estables lu
 				
 # Blog
 
-Los siguientes links son casi idénticos. ´blog'es que finalmente dejaré.
+Los siguientes links son casi idénticos. ´blog' es el que finalmente dejaré.
 				
 <button class="button buttom1"><a style="color: #3f50aa" href="https://post.villalba.is/">post.villalba.is</a></button>
 
