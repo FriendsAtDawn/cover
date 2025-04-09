@@ -2,13 +2,13 @@
 
 ---
 
-<center><a href="https://natel.es.eu.org"><img src="https://natel.es.eu.org/natel.png" style="width: 80%;"></a></center>
+<center><a href="https://natel.es.eu.org"><img src="https://natel.us.eu.org/images/logo.png" style="width: 80%;"></a></center>
 
 Producción de Proyectos bajo los stándares de la Comisión Nacional de Telecomunicaciones. Asunción, Paraguay.
 
 ---
 
-<center><a href="https://citius.natel.site"><img src="img/logo.png" style="width: 80%;"></a></center>
+<center><a href="https://citius.natel.us.eu.org"><img src="https://citius.natel.us.eu.org/images/logo.png" style="width: 80%;"></a></center>
 
 Servicios de certificación de documentos, cumpliendo con todos los requisitos legales necesarios. Ya sea para trámites personales, laborales o académicos.
 
