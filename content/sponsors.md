@@ -8,7 +8,7 @@ Producción de Proyectos bajo los stándares de la Comisión Nacional de Telecom
 
 ---
 
-<center><a href="https://citius.natel.us.eu.org"><img src="https://citius.natel.us.eu.org/images/logo.png" style="width: 80%;"></a></center>
+<center><a href="https://citius.natel.us.eu.org"><img src="https://citius.natel.us.eu.org/logo.svg" style="width: 80%;"></a></center>
 
 Servicios de certificación de documentos, cumpliendo con todos los requisitos legales necesarios. Ya sea para trámites personales, laborales o académicos.
 
