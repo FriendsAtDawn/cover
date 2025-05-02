@@ -1,6 +1,7 @@
 
-#Ethereum
+# Ethereum
 
+<!-- raw HTML -->
 <div style="display: flex; align-items: center; gap: 10px; font-family: sans-serif;">
   <img src="https://ethereum.org/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Feth-diamond-glyph.3cd60daa.png&w=64&q=75" 
        alt="Ethereum Logo" 
