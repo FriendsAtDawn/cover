@@ -1,7 +1,12 @@
-# Paquetes
 
-<button class="button buttom1"><a style="color: #3f50aa" href="https://buymeacoffee.com/isvillalba/e/273895/">850+ Ultimas Resoluciones</a></button>
+#Ethereum
 
-Alojado por gentileza de:
-
-<center><a href="https://buymeacoffee.com/isvillalba"><img src="https://bafkreid64w6rr555vsxjbui2xspicd3nihemrmkj6ug5zfvp5munhuebje.ipfs.nftstorage.link/" width="60%"></a></center>
+<div style="display: flex; align-items: center; gap: 10px; font-family: sans-serif;">
+  <img src="https://ethereum.org/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Feth-diamond-glyph.3cd60daa.png&w=64&q=75" 
+       alt="Ethereum Logo" 
+       style="width: 24px; height: 24px;">
+  <div>
+    <strong>Dirección Ethereum:</strong><br>
+    <code>0x26ab237a26060f8844c10a1d5c4121B61729A345</code>
+  </div>
+</div>
