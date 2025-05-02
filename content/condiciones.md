@@ -8,5 +8,5 @@ Y por último, no olvides descansar los ojos y mantenerte hidratado.
 
 ---
 
- <img src="img/eth.svg" width="80%">
+ <center><img src="img/eth.svg" width="50%"></center>
 
