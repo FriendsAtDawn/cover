@@ -8,7 +8,7 @@ Y por último, no olvides descansar los ojos y mantenerte hidratado.
 
 ---
 
- <p>Ethereum<span id="numero">0x0DeC67a0633CB40a1f3DcA96AE30653Acd1Daa2b</span>
+ <p>Ethereum; <span id="numero">0x0DeC67a0633CB40a1f3DcA96AE30653Acd1Daa2b</span>
     <button onclick="copiarNumero()">Haz clic para copiar</button>
   </p>
 
@@ -16,7 +16,7 @@ Y por último, no olvides descansar los ojos y mantenerte hidratado.
     function copiarNumero() {
       const numero = document.getElementById("numero").textContent;
       navigator.clipboard.writeText(numero).then(() => {
-        alert("Número copiado al portapapeles: " + numero);
+        alert("Dirección ETH copiado al portapapeles: " + numero);
       }).catch(err => {
         alert("Error al copiar: " + err);
       });
