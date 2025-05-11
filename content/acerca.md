@@ -1,10 +1,22 @@
 # Acerca del Buscador
 
-Empecé a utilizar el motor de **xapian** porque me pareció que las consultas que realizaba en la página de la CSJ me resultaban muy difícil ---Ps: Los ultimos cambios lo hicieron fácil. Por la cantidad de peticiones que reciben a diario lo ponen difícil de propósito a veces. **Posdata importante: en los últimos días el buscador ha mejorado muchísimo.** Sin embargo, ellos tienen toda la base de datos, yo apenas compile algunas. La idea es compilarlas todas y seguir teniendo este mismo nivel responsivo en la búsqueda. Me he concentrado en mejorar el OCR de los pdf's pero no sé si he tenido mucho éxito en ello. Hacerlo lleva mucho tiempo eninsume muchos recursos. Y el resultado, al menos por lo que se observa en las resoluciones ya disponibles, son unas +100 mil, no difiere mucho del original muchas veces.
+En una ocasión anterior propuse eliminar el buscador en razón de que la fuente me parecía mucho más prometedora en cuanto a sus nuevas funciones.
 
-Lastimosamente, el de los ocr's, como muchos otros es un trabajo que no compensa.
+Aún así, tiempo ha pasado y estas nuevas funciones quedaron en la nada.Por ahora, incompleto como está, creo que le faltan algunos meses, funciona aún mucho mejor que la de la fuente.
 
-Esto es una limitación absoluta. Sobre todo después del ingreso de [Cloudflare](https://cloudflare.com) en la ecuación que en poco tiempo fijó las limitaciones del servidor original de la Corte.
+Es un poco inestable, pero eso se puede ver: <p>Ethereum; <span id="numero">0x0DeC67a0633CB40a1f3DcA96AE30653Acd1Daa2b</span>
+    <button onclick="copiarNumero()">Haz clic para copiar</button>
+  </p>
 
-Por ello el siguiente [disclaimer](#disclaimer).
+  <script>
+    function copiarNumero() {
+      const numero = document.getElementById("numero").textContent;
+      navigator.clipboard.writeText(numero).then(() => {
+        alert("Dirección ETH copiado al portapapeles: " + numero);
+      }).catch(err => {
+        alert("Error al copiar: " + err);
+      });
+    }
+  </script>
+
 
