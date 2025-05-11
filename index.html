@@ -132,25 +132,28 @@ dejaré.</p>
 </div>
 <div class="seven">
 <h1 id="acerca-del-buscador">Acerca del Buscador</h1>
-<p>Empecé a utilizar el motor de <strong>xapian</strong> porque me
-pareció que las consultas que realizaba en la página de la CSJ me
-resultaban muy difícil —Ps: Los ultimos cambios lo hicieron fácil. Por
-la cantidad de peticiones que reciben a diario lo ponen difícil de
-propósito a veces. <strong>Posdata importante: en los últimos días el
-buscador ha mejorado muchísimo.</strong> Sin embargo, ellos tienen toda
-la base de datos, yo apenas compile algunas. La idea es compilarlas
-todas y seguir teniendo este mismo nivel responsivo en la búsqueda. Me
-he concentrado en mejorar el OCR de los pdf’s pero no sé si he tenido
-mucho éxito en ello. Hacerlo lleva mucho tiempo eninsume muchos
-recursos. Y el resultado, al menos por lo que se observa en las
-resoluciones ya disponibles, son unas +100 mil, no difiere mucho del
-original muchas veces.</p>
-<p>Lastimosamente, el de los ocr’s, como muchos otros es un trabajo que
-no compensa.</p>
-<p>Esto es una limitación absoluta. Sobre todo después del ingreso de <a
-href="https://cloudflare.com">Cloudflare</a> en la ecuación que en poco
-tiempo fijó las limitaciones del servidor original de la Corte.</p>
-<p>Por ello el siguiente <a href="#disclaimer">disclaimer</a>.</p>
+<p>En una ocasión anterior propuse eliminar el buscador en razón de que
+la fuente me parecía mucho más prometedora en cuanto a sus nuevas
+funciones.</p>
+<p>Aún así, tiempo ha pasado y estas nuevas funciones quedaron en la
+nada.Por ahora, incompleto como está, creo que le faltan algunos meses,
+funciona aún mucho mejor que la de la fuente.</p>
+Es un poco inestable, pero eso se puede ver:
+<p>
+Ethereum; <span
+id="numero">0x0DeC67a0633CB40a1f3DcA96AE30653Acd1Daa2b</span>
+<button onclick="copiarNumero()">Haz clic para copiar</button>
+</p>
+<script>
+    function copiarNumero() {
+      const numero = document.getElementById("numero").textContent;
+      navigator.clipboard.writeText(numero).then(() => {
+        alert("Dirección ETH copiado al portapapeles: " + numero);
+      }).catch(err => {
+        alert("Error al copiar: " + err);
+      });
+    }
+  </script>
 </div>
 <div class="six">
 <h1 id="condiciones-de-uso.">Condiciones de uso.</h1>
