@@ -1,8 +1,5 @@
 <iframe
-  id="cpc"
-  title="cpc"
-  width="300"
-  height="200"
-  src="https://https://cpc.is-best.net">
+  width="100%"
+  src="https://cpc.is-best.net">
 </iframe>
 
