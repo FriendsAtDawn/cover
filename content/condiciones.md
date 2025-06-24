@@ -8,7 +8,7 @@ Y por último, no olvides descansar los ojos y mantenerte hidratado.
 
 ---
 
- <p>Ethereum; <span id="numero">0x0DeC67a0633CB40a1f3DcA96AE30653Acd1Daa2b</span>
+ <p>Ethereum; <span id="numero">0x0b8CBceD8790Dd8ae4aEB3C3df687a3C95892DA1</span>
     <button onclick="copiarNumero()">Haz clic para copiar</button>
   </p>
 
