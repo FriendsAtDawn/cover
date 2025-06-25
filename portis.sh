@@ -2,15 +2,20 @@
 
 # Array of Markdown filenames and their corresponding class names
 declare -A files=(
-    ["logo.md"]="one"
-    ["recursos.md"]="two"
-    ["sponsors.md"]="three"
-    ["extras.md"]="four"
-    ["paquetes.md"]="five"
-    ["condiciones.md"]="six"
-    ["acerca.md"]="seven"
-    ["agradecimientos.md"]="eight"
-    ["news.md"]="nine"
+    ["logo.md"]="logo"
+    ["eth.md"]="eth"
+    ["recursos.md"]="recursos"
+    ["blog.md"]="blog"
+    ["otros-recursos.md"]="otros"
+    ["amigos.md"]="amigos"
+    ["extras.md"]="extras"
+    ["paquetes.md"]="paquetes"
+    ["condiciones.md"]="condiciones"
+    ["acerca.md"]="acerca"
+    ["agradecimientos.md"]="agradecimientos"
+    ["cpc.md"]="cpc"
+    ["ruc.md"]="ruc"
+    ["submenu.md"]="submenu"
 )
 
 # Start creating the index.html file
