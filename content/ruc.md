@@ -3,5 +3,5 @@
   title="ruc"
   width="100%"
   height="500px"
-  src="http://ruc.villalba.is">
+  src="https://ruc.zya.me">
 </iframe>
