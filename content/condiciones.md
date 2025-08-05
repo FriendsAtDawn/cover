@@ -8,7 +8,7 @@ Y por último, no olvides descansar los ojos y mantenerte hidratado.
 
 ---
 
- <p>Monero; <span id="numero" style="font-size: '50%';">87bHNWFzHmYPwcDg3PDnK2ANvW4rKQJ2Uck7m2FUWLwyZWgHNjG9UDUHsWG6p7vtTuVwCEyVd1VHoQfs4aB7JpzfKjGSL5c</span>
+ <p><span id="numero" style="font-size: '50%';">87bHNWFzHmYPwcDg3PDnK2ANvW4rKQJ2Uck7m2FUWLwyZWgHNjG9UDUHsWG6p7vtTuVwCEyVd1VHoQfs4aB7JpzfKjGSL5c</span>
     <button onclick="copiarNumero()">Haz clic para copiar</button>
   </p>
 
