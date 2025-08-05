@@ -11,7 +11,6 @@ declare -A files=(
     ["extras.md"]="extras"
     ["paquetes.md"]="paquetes"
     ["condiciones.md"]="condiciones"
-    ["acerca.md"]="acerca"
     ["agradecimientos.md"]="agradecimientos"
     ["cpc.md"]="cpc"
     ["ruc.md"]="ruc"
