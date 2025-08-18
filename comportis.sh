@@ -46,7 +46,7 @@ do
             echo "<div class=\"$class_name\">" >> ./index.html
         fi
         
-        cmark "$full_path" >> ./index.html
+        cmark-gfm "$full_path" >> ./index.html
         echo "Processing file: $full_path"
         
         if [ -n "$first_line" ]; then
@@ -62,4 +62,4 @@ done
 
 # Close the HTML tags
 echo "</div></body>
-</html>" >> ./index.html
+</html>" >> ./index2.html

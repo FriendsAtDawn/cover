@@ -1,0 +1,31 @@
+name: Build site
+
+on:
+  push:
+    branches:
+      - main   # o la rama que uses
+    paths:
+      - 'content/**'    # solo si cambian los .md
+      - 'build.sh'
+      - '.github/workflows/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Install cmark
+        run: sudo apt-get update && sudo apt-get install -y cmark
+
+      - name: Build HTML
+        run: ./comportis.sh
+
+      - name: Commit HTML output
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git commit -m "Auto-build index.html" || echo "No changes to commit"
+          git push
