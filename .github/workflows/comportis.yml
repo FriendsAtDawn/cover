@@ -1,4 +1,4 @@
-name: Build site
+name: Build site 2
 
 on:
   push:
@@ -26,6 +26,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add index.html
+          git add index2.html
           git commit -m "Auto-build index.html" || echo "No changes to commit"
           git push
