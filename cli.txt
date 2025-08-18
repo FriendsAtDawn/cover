@@ -16,8 +16,8 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Install cmark
-        run: sudo apt-get update && sudo apt-get install -y cmark
+      - name: Install cmark-gfm
+        run: sudo apt-get update && sudo apt-get install -y cmark-gfm
 
       - name: Build HTML
         run: ./comportis.sh
