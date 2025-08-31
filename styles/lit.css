@@ -13,6 +13,27 @@ body {
     background-repeat: no-repeat; /* Optional: Prevent image repetition */
 }
 
+label,
+textarea {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+textarea {
+  padding: 10px;
+  max-width: 100%;
+  line-height: 1.5;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  box-shadow: 1px 1px 1px #999999;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+
 /* Soy el chico de los botones, soy la manteca sacrificial */
 
 .button {
