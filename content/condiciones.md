@@ -7,14 +7,14 @@ Y por último, no olvides descansar los ojos y mantenerte hidratado.
 <a name=disclaimer id=disclaimer></a>
 
 ---
-
- <p><textarea id="numero" cols="80">87bHNWFzHmYPwcDg3PDnK2ANvW4rKQJ2Uck7m2FUWLwyZWgHNjG9UDUHsWG6p7vtTuVwCEyVd1VHoQfs4aB7JpzfKjGSL5c</textarea><br/>
+<p><label for="monero">Monero</label>
+ <p><textarea id="monero" cols="80">87bHNWFzHmYPwcDg3PDnK2ANvW4rKQJ2Uck7m2FUWLwyZWgHNjG9UDUHsWG6p7vtTuVwCEyVd1VHoQfs4aB7JpzfKjGSL5c</textarea><br/>
     <button onclick="copiarNumero()">Haz clic para copiar</button>
   </p>
 
   <script>
     function copiarNumero() {
-      const numero = document.getElementById("numero").textContent;
+      const numero = document.getElementById("monero").textContent;
       navigator.clipboard.writeText(numero).then(() => {
         alert("Dirección Monero copiado al portapapeles: " + numero);
       }).catch(err => {
