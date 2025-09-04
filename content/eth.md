@@ -1,10 +1,10 @@
 ## Apoya este proyecto con donaciones en Monero
 
-Envía la cantidad que desees a la siguiente dirección:
-
-<p><span id="numero" style="font-size: 10px;"><textarea cols="96">87bHNWFzHmYPwcDg3PDnK2ANvW4rKQJ2Uck7m2FUWLwyZWgHNjG9UDUHsWG6p7vtTuVwCEyVd1VHoQfs4aB7JpzfKjGSL5c</textarea></span><br>
+<label for="numero">Monero:</label>
+<p><textarea id="numero"cols="96" rows="1">87bHNWFzHmYPwcDg3PDnK2ANvW4rKQJ2Uck7m2FUWLwyZWgHNjG9UDUHsWG6p7vtTuVwCEyVd1VHoQfs4aB7JpzfKjGSL5c</textarea><br />
     <button onclick="copiarNumero()">Haz clic para copiar</button>
   </p>
+
 
   <script>
     function copiarNumero() {

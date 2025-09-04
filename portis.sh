@@ -22,7 +22,7 @@ echo "<!DOCTYPE html>
 <html>
 <head>
  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">
- <title>villalba.is</title>
+ <title>villalba.is.eu.org</title>
  <link rel=\"stylesheet\" href=\"./styles/lit.css\" />
  <script src=\"./js/rss-feed.js\" defer></script>
 </head>
