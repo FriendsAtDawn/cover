@@ -14,4 +14,4 @@
 
 ## Robert Insfrán
 
-[![](./img/Medium-Wordmark-Black.svg)](https://medium.com/@robertinsfran/)
+[![](/img/Medium-Wordmark-Black.svg)](https://medium.com/@robertinsfran/)
