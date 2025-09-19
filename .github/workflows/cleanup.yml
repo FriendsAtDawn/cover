@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Delete old workflow runs
-        uses: github/delete-workflow-runs@v3
+        uses: actions/delete-workflow-runs@v3
         with:
           retain_days: 7         # conserva solo los últimos 7 días
           keep_minimum_runs: 10  # siempre deja al menos 10 runs
