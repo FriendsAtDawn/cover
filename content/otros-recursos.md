@@ -1,6 +1,6 @@
 # Otros Recursos
 
-<center><a href="https://natel.us.eu.org"><img src="https://natel.us.eu.org/images/logo.png" width="60%"></a></center>
+<center><a href="https://natel.us.eu.org"><img src="https://natel.us.eu.org/images/logo.png" width="50%"></a></center>
 
 Producción de Proyectos bajo los stándares de la Comisión Nacional de Telecomunicaciones. Asunción, Paraguay.
 
