@@ -1,16 +1,20 @@
 name: Cleanup old workflow runs
-
 on:
   schedule:
-    - cron: "0 3 * * 0" # cada domingo a las 03:00 UTC
-  workflow_dispatch:     # también lo podés correr manualmente
+    - cron: "0 3 * * 0"  # cada domingo a las 03:00 UTC
+  workflow_dispatch:      # para correr manualmente
 
 jobs:
   cleanup:
     runs-on: ubuntu-latest
+    permissions:
+      actions: write
+      contents: read
     steps:
       - name: Delete old workflow runs
-        uses: igorjs/delete-workflow-runs@v3
+        uses: Mattraks/delete-workflow-runs@v2
         with:
-          retain_days: 7         # conserva solo los últimos 7 días
-          keep_minimum_runs: 10  # siempre deja al menos 10 runs
+          token: ${{ github.token }}
+          repository: ${{ github.repository }}
+          retain_days: 7
+          keep_minimum_runs: 10
