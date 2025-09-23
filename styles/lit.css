@@ -179,8 +179,9 @@ grid-column: 1 / 2;
 }
 
 .chat{
-grid-column: 3 / 4;
+grid-column: 2 / 4;
   grid-row: 5;
+  background-color: white;
 
 }
 
