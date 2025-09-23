@@ -181,7 +181,7 @@ grid-column: 1 / 2;
 .chat{
 grid-column: 2 / 4;
   grid-row: 5;
-  color: #7144DA;
+ background-color: #7144DA;
 
 }
 
