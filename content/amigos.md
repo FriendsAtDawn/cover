@@ -1,5 +1,7 @@
 # Redes amigas
 
+---
+
 ## Cabodevila
 
 <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/track=3771382991/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="https://cabodevila.bandcamp.com/track/september">September by cabodevila</a></iframe>
@@ -14,4 +16,4 @@
 
 ## Robert Insfrán
 
-<a href="https://medium.com/@robertinsfran/"><img src="/img/Medium-Wordmark-Black.svg" style="width: 100%;"></a>
+<center><a href="https://medium.com/@robertinsfran/"><img src="/img/Medium-Wordmark-Black.svg" style="width: 50%;"></a></center>
