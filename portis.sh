@@ -15,7 +15,8 @@ declare -A files=(
     ["cpc.md"]="cpc"
     ["ruc.md"]="ruc"
     ["submenu.md"]="submenu"
-    ["chat.md"]="chat"
+    ["gaceta.md"]="gaceta"
+    ["revista.md"]="revista"
 )
 
 # Start creating the index.html file
