@@ -16,4 +16,4 @@
 
 ## Robert Insfrán
 
-<center><a href="https://medium.com/@robertinsfran/"><img src="/img/Medium-Wordmark-Black.svg" style="width: 50%;"></a></center>
+<center><a href="https://medium.com/@robertinsfran/"><img src="img/Medium-Wordmark-Black.svg" style="width: 50%;"></a></center>
