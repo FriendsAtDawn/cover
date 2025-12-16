@@ -4,7 +4,7 @@
   width="100%"
   height="100%"
   style="border: none;"
-  src="https://csj.infy.uk">
+  src="https://csj.global.ssl.fastly.net">
 </iframe>
 
 
