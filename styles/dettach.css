@@ -1,0 +1,26 @@
+.iframe-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.open-in-new-tab-button {
+  position: absolute;
+  top: 10px; /* Ajusta la posición vertical */
+  right: 10px; /* Ajusta la posición horizontal */
+  width: 30px;
+  height: 30px;
+  background: rgba(0, 0, 0, 0.3); /* Fondo semi-transparente */
+  cursor: pointer;
+  border-radius: 50%; /* Opcional: para que sea un círculo */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 14px;
+  z-index: 10; /* Asegura que esté por encima del iframe */
+}
+
+.open-in-new-tab-button:hover {
+  background: rgba(0, 0, 0, 0.7); /* Efecto hover */
+}
