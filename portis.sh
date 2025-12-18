@@ -34,7 +34,7 @@ echo "<!DOCTYPE html>
   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
  <title>villalba.is.eu.org</title>
  <link rel=\"stylesheet\" href=\"./styles/lit.css\" />
- <script src=\"./js/rss-feed.js\" defer></script>
+ <link rel=\"stylesheet\" href=\"./styles/dettach.css\" />
 </head>
 <body>
 <div class=\"wrapper\">" > ./index.html
