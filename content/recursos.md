@@ -5,7 +5,7 @@
   width="100%"
   height="100%"
   style="border: none;"
-  src="https://csj.global.ssl.fastly.net">
+  src="https://csj.villalba.is.eu.org">
 </iframe>
 <div class="open-in-new-tab-button">↗</div>
 </div>
